@@ -1,0 +1,24 @@
+﻿Build started 28-03-2015 10:22:42.
+     1>Project "C:\Users\Saurabh Satnalika\documents\visual studio 2010\Projects\testOenCV\testOenCV\testOenCV.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\testOenCV.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\openCV_2.4.5\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Saurabh Satnalika\documents\visual studio 2010\Projects\testOenCV\Release\testOenCV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\openCV_2.4.5\build\x86\vc10\lib opencv_calib3d245.lib opencv_contrib245.lib opencv_core245.lib opencv_features2d245.lib opencv_flann245.lib opencv_gpu245.lib opencv_haartraining_engined.lib opencv_highgui245.lib opencv_imgproc245.lib opencv_legacy245.lib opencv_ml245.lib opencv_nonfree245.lib opencv_objdetect245.lib opencv_photo245.lib opencv_stitching245.lib opencv_superres245.lib opencv_ts245.lib opencv_video245.lib opencv_videostab245.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\testOenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Saurabh Satnalika\documents\visual studio 2010\Projects\testOenCV\Release\testOenCV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Saurabh Satnalika\documents\visual studio 2010\Projects\testOenCV\Release\testOenCV.lib" /MACHINE:X86 Release\test.obj
+     1>test.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::ocl::oclMat::release(void)" (?release@oclMat@ocl@cv@@QAEXXZ)
+     1>test.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::ocl::oclMat::create(int,int,int)" (?create@oclMat@ocl@cv@@QAEXHHH@Z)
+     1>test.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::ocl::oclMat::upload(class cv::Mat const &)" (?upload@oclMat@ocl@cv@@QAEXABVMat@3@@Z)
+     1>test.obj : error LNK2001: unresolved external symbol "void __cdecl cv::ocl::equalizeHist(class cv::ocl::oclMat const &,class cv::ocl::oclMat &)" (?equalizeHist@ocl@cv@@YAXABVoclMat@12@AAV312@@Z)
+     1>test.obj : error LNK2001: unresolved external symbol "public: struct CvSeq * __thiscall cv::ocl::OclCascadeClassifier::oclHaarDetectObjects(class cv::ocl::oclMat &,struct CvMemStorage *,double,int,int,struct CvSize,struct CvSize)" (?oclHaarDetectObjects@OclCascadeClassifier@ocl@cv@@QAEPAUCvSeq@@AAVoclMat@23@PAUCvMemStorage@@NHHUCvSize@@2@Z)
+     1>test.obj : error LNK2001: unresolved external symbol "int __cdecl cv::ocl::getDevice(class std::vector<class cv::ocl::Info,class std::allocator<class cv::ocl::Info> > &,int)" (?getDevice@ocl@cv@@YAHAAV?$vector@VInfo@ocl@cv@@V?$allocator@VInfo@ocl@cv@@@std@@@std@@H@Z)
+     1>test.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::ocl::Info::~Info(void)" (??1Info@ocl@cv@@QAE@XZ)
+     1>test.obj : error LNK2001: unresolved external symbol "void __cdecl cv::ocl::resize(class cv::ocl::oclMat const &,class cv::ocl::oclMat &,class cv::Size_<int>,double,double,int)" (?resize@ocl@cv@@YAXABVoclMat@12@AAV312@V?$Size_@H@2@NNH@Z)
+     1>test.obj : error LNK2001: unresolved external symbol "void __cdecl cv::ocl::cvtColor(class cv::ocl::oclMat const &,class cv::ocl::oclMat &,int,int)" (?cvtColor@ocl@cv@@YAXABVoclMat@12@AAV312@HH@Z)
+     1>C:\Users\Saurabh Satnalika\documents\visual studio 2010\Projects\testOenCV\Release\testOenCV.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "C:\Users\Saurabh Satnalika\documents\visual studio 2010\Projects\testOenCV\testOenCV\testOenCV.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.03

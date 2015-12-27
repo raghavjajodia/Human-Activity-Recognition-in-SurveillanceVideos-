@@ -1,0 +1,17 @@
+﻿Build started 27-12-2015 18:25:46.
+     1>Project "E:\PROJECTS\SOP\testOenCV\testOenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /IC:\openCV_2.4.5\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\projects\sop\testoencv\test.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\testOenCV.exe.embed.manifest.res" Debug\testOenCV_manifest.rc 
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\PROJECTS\SOP\testOenCV\Debug\testOenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib /LIBPATH:C:\openCV_2.4.5\build\x86\vc10\lib opencv_calib3d245.lib opencv_contrib245.lib opencv_core245.lib opencv_features2d245.lib opencv_flann245.lib opencv_gpu245.lib opencv_haartraining_engined.lib opencv_highgui245.lib opencv_imgproc245.lib opencv_legacy245.lib opencv_ml245.lib opencv_nonfree245.lib opencv_objdetect245.lib opencv_photo245.lib opencv_stitching245.lib opencv_superres245.lib opencv_ts245.lib opencv_video245.lib opencv_videostab245.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testOenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\PROJECTS\SOP\testOenCV\Debug\testOenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\PROJECTS\SOP\testOenCV\Debug\testOenCV.lib" /MACHINE:X86 Debug\testOenCV.exe.embed.manifest.res
+         Debug\test.obj
+     1>LINK : fatal error LNK1104: cannot open file 'opencv_calib3d245.lib'
+     1>Done Building Project "E:\PROJECTS\SOP\testOenCV\testOenCV.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.52
