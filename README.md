@@ -11,3 +11,6 @@ This project detects human activity in survelliance videos. It uses background s
 ### Who do I talk to? ###
 
 Raghav Jajodia- raghav_jajodia777@rediffmail.com
+
+![alt text](https://github.com/raghavjajodia/Human-Activity-Recognition-in-SurveillanceVideos-/blob/master/detectionExample.JPG
+)
