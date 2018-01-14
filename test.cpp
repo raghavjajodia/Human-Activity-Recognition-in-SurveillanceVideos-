@@ -106,7 +106,7 @@ int main(int argc, char* argv[])
 
 void processVideo(char* videoFilename) {
     //create the capture object
-    VideoCapture capture("9.mp4");
+    VideoCapture capture(videoFilename);
     if(!capture.isOpened()){
         //error in opening the video input
         cerr << "Unable to open video file: " << videoFilename << endl;
